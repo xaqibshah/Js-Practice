@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+
+    <div class="cont">
+        <div class="form sign-in">
+          <h2>Welcome back,</h2>
+          <label>
+            <span>   Email: </span>
+        <input type="email" name="email" id="email" >  </label>
+        <label >
+            <span> Password: </span>
+         <input type="password" name="psd" id="psd"> </label>
+        <!-- <button onClick ="registration()">Submit</button> -->
+        <button class="submit" type="button" onClick ="login()">Login</button>
+          <p class="forgot-pass">Forgot password?</p>
+
+        </div>
+        <div class="sub-cont">
+          <div class="img">
+            <div class="img-text m-up">
+              <h2>New here?</h2>
+              <p>Sign up and discover great amount of new opportunities!</p>
+            </div>
+            <div class="img-text m-in">
+              <h2>One of us?</h2>
+              <p>If you already has an account, just sign in. We've missed you!</p>
+            </div>
+            <div class="img-btn">
+              <span class="m-up">Sign Up</span>
+              <span class="m-in">Sign In</span>
+            </div>
+          </div>
+          <div class="form sign-up">
+            <h2>Time to feel like home,</h2>
+            <label >
+              <span>Name</span>
+              <input type="text" name="name" id="name">
+          </label>
+          <label >
+              <span>Email</span>
+              <input type="email">
+          </label>
+          <label >
+              <span>Password</span>
+              <input type="password">
+          </label>
+          <label >
+              <span>Confirm Password</span>
+              <input type="password">
+          </label>
+          <label >
+            <span>Date of Birth</span>
+            <input type="date">
+        </label>
+            <button type="button" class="submit">Sign Up</button>
+            <button type="button" class="fb-btn">Join with <span>facebook</span></button>
+          </div>
+        </div>
+      </div>
+      
+<script src="js/app.js"></script>
+
+</body>
+</html>
